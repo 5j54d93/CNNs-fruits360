@@ -33,7 +33,7 @@ Build a CNN whose neural architecture includes ResBlock.
 
 ### 定義卷積神經網路架構：
 
-```pythob
+```python
 images = keras.layers.Input(x_train.shape[1:])
 
 x = keras.layers.Conv2D(filters=16, kernel_size=[1,1], padding='same')(images)
