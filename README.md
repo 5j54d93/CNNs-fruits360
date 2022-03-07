@@ -1,8 +1,12 @@
 # CNNs fruits360
 
+![GitHub](https://img.shields.io/github/license/5j54d93/CNNs-fruits360)
+![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/CNNs-fruits360)
+![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/CNNs-fruits360)
+
 Train CNNs for the fruits360 data set in NTOU CS「Machine Vision」class.
 
-## CNN on a pretrained model
+## [CNN on a pretrained model](https://github.com/5j54d93/CNNs-fruits360/blob/main/CNN%20on%20a%20pre-trained%20model.ipynb)
 
 Build a CNN on a pretrained model, ResNet50.  
 Finetune the pretrained model when training my CNN.  
@@ -27,7 +31,7 @@ def fruit_model_on_pretrained(height,width,channel):
     model.summary()
 ```
 
-## CNN's neural architecture include ResBlock
+## [CNN's neural architecture include ResBlock](https://github.com/5j54d93/CNNs-fruits360/blob/main/CNN's%20neural%20architecture%20include%20ResBlock.ipynb)
 
 Build a CNN whose neural architecture includes ResBlock.
 
